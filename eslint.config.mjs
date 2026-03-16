@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Django backend and virtual environment:
+    "venv/**",
+    "clientflow_api/**",
   ]),
 ]);
 
